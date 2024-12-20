@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="प्रचार घर - आपके व्यवसाय का डिजिटल साथी। हम सोशल मीडिया प्रबंधन, डिजिटल मार्केटिंग और ब्रांडिंग में विशेषज्ञ हैं।">
+    <meta name="keywords" content="प्रचार घर, डिजिटल मार्केटिंग, सोशल मीडिया मैनेजमेंट, ब्रांडिंग, SEO">
+    <meta name="author" content="प्रचार घर">
+    <title>प्रचार घर - आपके व्यवसाय का डिजिटल साथी</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>प्रचार घर</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">होम</a></li>
+                <li><a href="#services">सेवाएं</a></li>
+                <li><a href="#about">हमारे बारे में</a></li>
+                <li><a href="#contact">संपर्क करें</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>आपके व्यवसाय का डिजिटल साथी</h2>
+        <p>हम आपके व्यवसाय को डिजिटल दुनिया में नई ऊंचाइयों तक ले जाते हैं।</p>
+        <a href="#contact" class="cta">अभी संपर्क करें</a>
+    </section>
+
+    <section id="services" class="services">
+        <h2>हमारी सेवाएं</h2>
+        <div class="service-item">
+            <h3>सोशल मीडिया प्रबंधन</h3>
+            <p>सोशल मीडिया पोस्ट, ग्रोथ और एंगेजमेंट बढ़ाने की सेवाएं।</p>
+        </div>
+        <div class="service-item">
+            <h3>डिजिटल मार्केटिंग</h3>
+            <p>SEO, Google Ads, और सोशल मीडिया विज्ञापन।</p>
+        </div>
+        <div class="service-item">
+            <h3>ग्राफिक्स डिजाइन</h3>
+            <p>लोगो, पोस्टर और ब्रांडिंग सामग्री डिजाइन।</p>
+        </div>
+        <div class="service-item">
+            <h3>यूट्यूब प्रमोशन</h3>
+            <p>Subscribers और Watch Hours बढ़ाने की सेवाएं।</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>हमारे बारे में</h2>
+        <p>प्रचार घर एक डिजिटल कंपनी है जो व्यवसायों के लिए उनकी ऑनलाइन उपस्थिति को सशक्त बनाती है।</p>
+        <p>हमारा लक्ष्य है आपके व्यवसाय को डिजिटल रूप से बढ़ाना और अधिक से अधिक ग्राहकों तक पहुंचाना।</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>संपर्क करें</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="आपका नाम" required>
+            <input type="email" name="email" placeholder="आपका ईमेल" required>
+            <textarea name="message" placeholder="आपका संदेश" rows="5" required></textarea>
+            <button type="submit">भेजें</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 प्रचार घर | सभी अधिकार सुरक्षित।</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
